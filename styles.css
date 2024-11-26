@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3.2rem;
     border: 0.2rem solid var(--azul-royal);
     background: var(--fundo-card-timer);
+    backdrop-filter: blur(25px);
     padding: 2.4rem;
     margin: 8rem 0;
     width: 59rem;
@@ -388,8 +389,9 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    border-radius: 0.8rem;
+    border-radius: 2rem;
     background: var(--fundo-card);
+    backdrop-filter: blur(25px);
     margin-bottom: 0.8rem;
     padding: 1.6rem;
     box-sizing: border-box;
@@ -422,8 +424,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .app__form-add-task {
     padding: 1.6rem;
-    border-radius: 0.8rem;
+    border-radius: 2rem;
     background: var(--fundo-card);
+    backdrop-filter: blur(25px);
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 600;
